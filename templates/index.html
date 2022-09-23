@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crop_Model</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logotipo">
+        <img
+          class="image"
+          src="../static/images/dataset-cover.jpg"
+          alt="Crop"
+        />
+        <h1>Classification model based on the Crop Recommendation Dataset</h1>
+      </div>
+    </header>
+
+    <div>
+      <form action="/result" method="POST" class="form">
+        <h3 class="form_title">
+          Dataset in
+          <a
+            href="https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset"
+            target="_blank"
+            >Crop Recommendation</a
+          >
+        </h3>
+        <input type="text"  autocomplete="off" name="N" class="form__input" />
+        <label for="Nitrogen" class="form__label">Nitrogen: </label>
+
+        <input type="text" autocomplete="off" name="P" class="form__input" />
+        <label for="Phosphorous" class="form__label">Phosphorous: </label>
+
+        <input type="text" autocomplete="off" name="K" class="form__input" />
+        <label for="Potassium" class="form__label">Potassium: </label>
+
+        <input type="text" autocomplete="off" name="Temp" class="form__input" />
+        <label for="Temperature" class="form__label">Temperature: </label>
+
+        <input type="text" autocomplete="off" name="Hum" class="form__input" />
+        <label for="Humidity" class="form__label">Humidity: </label>
+
+        <input type="text" autocomplete="off" name="pH" class="form__input" />
+        <label for="pH" class="form__label">pH: </label>
+
+        <input type="text" autocomplete="off" name="rain" class="form__input" />
+        <label for="Rainfall" class="form__label">Rainfall: </label>
+
+        <input type="submit" value="Submit" class="form__submit" />
+      </form>
+    </div>
+
+    <footer>
+      Crop_Model &copy; cquinayas@gmail.com
+      <section class="buttons">
+        <a href="#" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/cesar-augusto-quinayas-burgos-544084243/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="" class="fa fa-twitter"></a>
+      </section>
+    </footer>
+    <script src="../static/js/form.js"></script>
+  </body>
+</html>

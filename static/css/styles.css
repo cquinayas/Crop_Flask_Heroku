@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    font-size: 62.5%;
+}
+  
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+#logotipo{
+    width: 70%;
+    height: 130px;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+}
+
+#logotipo img{
+    
+    width: 100%;
+  
+}
+
+#logotipo h1{
+    
+    margin-top: 5px;
+    
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    color: #42a096;
+
+    text-align: center;
+    
+}
+.form{
+    width: 500px;
+    max-width: 100%;
+    margin:  auto;
+    margin-top: 150px;
+    padding: 40px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;  
+    border-radius: 15px;
+}
+.form_title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form__input, .form__label, .form__submit{
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+}
+.form__input{
+    padding: 5px;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.form__input:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+}
+.form__input:focus + .form__label{
+    font-size: 1.4rem;
+    margin-top: -75px;
+}
+
+
+.form__label{
+    box-sizing: border-box;
+    padding-left: 5px;
+    position: absolute;
+    margin-top: -50px;
+    z-index: -20;
+    color: rgba(0,0,0,0.7);
+    transition: all 0.2s;
+   
+}
+.form__submit{
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #1b1f1c;
+    border: 1px solid #333;
+    color: #d1d4d6;
+    text-align: center;
+    margin-top: 10px;
+    /*margin: 0 auto;*/
+    box-shadow: 0px 0px 20px gray;
+
+}
+.result{
+    width: 500px;
+    max-width: 100%;
+    margin:  auto;
+    margin-top: 150px;
+    padding: 40px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+    position: relative;   
+}
+.result__h2{
+    text-align: center;
+}
+.result__h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: red;
+}
+.fix{
+    margin-top: -75px;
+}
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
