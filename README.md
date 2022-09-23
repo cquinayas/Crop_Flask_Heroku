@@ -19,11 +19,7 @@ The SVM model is trained using the following colab notebook
     *   Active a Heroku Cloud account
     *   Create a project on Heroku
     *   Install Heroku CLI
-        (https://cloud.google.com/sdk/docs/install)
-    *   Ejecutar en la terminal:
-    
-    $ gcloud init
-    $ gcloud app deploy app.yaml --project "Nombre del proyecto"
+      
     
     
 
