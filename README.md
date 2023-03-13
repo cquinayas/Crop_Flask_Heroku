@@ -22,6 +22,6 @@ The SVM model is trained using the following colab notebook
  
 ## 4. Deployment of the Heroku cloud recommendation model
 
-[api.py](https://cropapi.herokuapp.com/) 
+[API](https://cropapi.herokuapp.com/) 
     
 
