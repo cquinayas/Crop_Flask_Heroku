@@ -14,7 +14,7 @@ The SVM model is trained using the following colab notebook
     $   pip install -r requirements.txt
     $   Run API app.py
     
-##  3. Production en remote server
+##  3. Production en remote server (Heroku cloud)
 
     *   Active a Heroku Cloud account
     *   Create a project on Heroku
@@ -24,4 +24,6 @@ The SVM model is trained using the following colab notebook
 
 [API](https://cropapi.herokuapp.com/) 
     
-
+##  5. Production en remote server (GCP cloud)
+   * Create a project on GCP
+   * 
