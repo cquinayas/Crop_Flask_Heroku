@@ -35,6 +35,6 @@ The SVM model is trained using the following colab notebook
    * Upload the container to gcp: gcloud builds submit --tag gcr.io/name-project-id/name-application
  ![Container Registry](https://github.com/cquinayas/Crop_Flask_Heroku/blob/main/container.png)
    * Deploy container image to gcp using Cloud Run
- ![Cloud Run]()
+ ![Cloud Run](https://github.com/cquinayas/Crop_Flask_Heroku/blob/main/CloudRun.png)
    
    
