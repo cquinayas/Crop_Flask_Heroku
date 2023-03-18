@@ -26,4 +26,15 @@ The SVM model is trained using the following colab notebook
     
 ##  5. Production en remote server (GCP cloud)
    * Create a project on GCP
-   * 
+   * Install Google Cloud SDK
+   (https://cloud.google.com/sdk/docs/install)
+   * Open Google Cloud SDK Shell
+   * Clone the repository: git clone repository
+   * cd Crop_Flask_Heroku
+   * Configure gcloud to recognize the project: gcloud config set project name-project-id
+   * Upload the container to gcp: gcloud builds submit --tag gcr.io/name-project-id/name-application
+   []
+   * Deploy container image to gcp using Cloud Run
+   []
+   
+   
