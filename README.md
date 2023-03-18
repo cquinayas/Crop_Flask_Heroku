@@ -22,7 +22,7 @@ The SVM model is trained using the following colab notebook
  
 ## 4. Deployment of the Heroku cloud recommendation model
 
-[API](https://cropapi.herokuapp.com/) 
+[API_Heroku](https://cropapi.herokuapp.com/) 
     
 ##  5. Production en remote server (GCP cloud)
    * Create a project on GCP
@@ -36,5 +36,8 @@ The SVM model is trained using the following colab notebook
  ![Container Registry](https://github.com/cquinayas/Crop_Flask_Heroku/blob/main/container.png)
    * Deploy container image to gcp using Cloud Run
  ![Cloud Run](https://github.com/cquinayas/Crop_Flask_Heroku/blob/main/CloudRun.png)
-   
+
+## 6. Deployment of the GCP cloud recommendation model
+
+[API_GCP](https://flaskapp-pqg2gofjka-uc.a.run.app/) 
    
