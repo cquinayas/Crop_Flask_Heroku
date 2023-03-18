@@ -33,8 +33,8 @@ The SVM model is trained using the following colab notebook
    * cd Crop_Flask_Heroku
    * Configure gcloud to recognize the project: gcloud config set project name-project-id
    * Upload the container to gcp: gcloud builds submit --tag gcr.io/name-project-id/name-application
-   []
+ ![Container Registry]()
    * Deploy container image to gcp using Cloud Run
-   []
+ ![Cloud Run]()
    
    
