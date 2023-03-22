@@ -15,7 +15,8 @@ The SVM model is trained using the following colab notebook
     $   Run API app.py
     
 ##  3. Production en remote server (Heroku cloud)
-
+    
+    *   Create the files procfile and index.php
     *   Active a Heroku Cloud account
     *   Create a project on Heroku
     *   Deploy via Github repository
