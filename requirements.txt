@@ -3,3 +3,8 @@ numpy
 pandas
 scikit-learn
 gunicorn
+fastapi
+uvicorn[standard]
+pydantic
+jinja2
+python-multipart
